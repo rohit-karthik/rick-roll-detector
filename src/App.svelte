@@ -4,7 +4,7 @@
 	let responseOfSend = null
 
 	async function makeReq() {
-		let response = await fetch("http://localhost:8000", {
+		let response = await fetch("https://rick-roll-server-app.azurewebsites.net", {
 			method: 'POST',
 			headers: {
 				'Accept': 'application/json',
